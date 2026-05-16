@@ -1,0 +1,6 @@
+[2026-05-01 11:00:01] TEST START: rv32i-sub
+[2026-05-01 11:00:02] TEST PASS: rv32i-sub (0.40s)
+[2026-05-01 11:00:03] TEST START: rv32i-sll
+[2026-05-01 11:00:04] TEST FAIL: rv32i-sll (1.10s)
+[2026-05-01 11:00:05] ERROR: Signature mismatch
+[2026-05-01 10:30:12] SUMMARY: 2 tests, 1 passed, 1 failed, 0 skipped

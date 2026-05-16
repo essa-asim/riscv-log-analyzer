@@ -1,0 +1,7 @@
+[2026-05-01 12:00:01] TEST START: rv32i-mul
+[2026-05-01 12:00:02] TEST PASS: rv32i-mul (0.85s)
+[2026-05-01 12:00:03] TEST START: rv32i-div
+[2026-05-01 12:00:04] TEST FAIL: rv32i-div (1.50s)
+[2026-05-01 12:00:05] TEST START: rv32i-rem
+[2026-05-01 12:00:06] TEST SKIP: rv32i-rem (not implemented)
+[2026-05-01 10:30:12] SUMMARY: 3 tests, 1 passed, 1 failed, 1 skipped
