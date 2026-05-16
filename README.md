@@ -1,4 +1,4 @@
-# RISC-V Log Analyzer
+# RISC-V Log Analyzer - Main Version
 
 ## Description
 The **RISC-V Log Analyzer** is a terminal-based tool developed for the MEDS Module 1 Capstone project. It automates the processing of RISC-V simulation logs to extract test results, calculate performance percentages, and analyze execution timing statistics.
