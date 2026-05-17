@@ -4,11 +4,11 @@ set -euo pipefail
 
 # --- FUNCTIONS ---
 
-function show_help {
+usage () {
     echo "Usage: ./analyze.sh <logfile> [--format text|csv] [--output file] [--verbose]"
 }
 
-function print_info {
+print_info () {
     # only print if verbose flag is on
     if [ "$verbose" == "1" ]; then
         echo "[INFO] $1"
@@ -19,7 +19,7 @@ function print_info {
 
 if [ $# -lt 1 ]; then
     echo "Error: Log file missing"
-    show_help
+    usage
     exit 1
 fi
 
@@ -46,7 +46,7 @@ while [[ $# -gt 0 ]]; do
             shift
             ;;
         --help)
-            show_help
+            usage
             exit 0
             ;;
         *) 
