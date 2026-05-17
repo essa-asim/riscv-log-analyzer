@@ -177,7 +177,7 @@ fi
 
 # --- SAVING THE FILE ---
 if [ -n "$out_file" ]; then
-    # create the output directory just in case it doesn't exist
+    # Create the output directory just in case it doesn't exist
     mkdir -p output
     echo "$result_data" > "$out_file"
     print_info "Saved to $out_file"
@@ -185,4 +185,4 @@ else
     echo "$result_data"
 fi
 
-exit $exit_code
+exit $exit_code 
