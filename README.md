@@ -13,4 +13,4 @@ This repository follows the strict organizational requirements of the MEDS train
 ## Installation
 Before running the analyzer, ensure that the scripts have the necessary execution permissions:
 ```bash
-chmod +x scripts/*.sh
+chmod +x scripts/*.sh 
