@@ -23,4 +23,4 @@ The main analysis script is located in the `scripts/` directory.
 **1. Basic Text Output**
 Run the analyzer on a log file and print the formatted text report directly to the terminal:
 ```bash
-./scripts/analyze.sh test_data/sample_sim.log
+./scripts/analyze.sh test_data/sample_sim.log 
